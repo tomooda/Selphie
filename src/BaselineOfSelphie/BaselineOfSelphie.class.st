@@ -9,6 +9,14 @@ Class {
 BaselineOfSelphie >> baseline: spec [
 
 	<baseline>
-	spec package: 'Selphie-Core'.
-	spec group: 'default' with: #( 'Selphie-Core' )
+	spec for: #common do: [
+		spec package: 'Selphie-Core'.
+		spec group: 'default' with: #( 'Selphie-Core' ).
+		spec postLoadDoIt: #postLoad ]
+]
+
+{ #category : 'activation' }
+BaselineOfSelphie >> postLoad [
+
+	HaloMorph initializeWithSelphie
 ]
