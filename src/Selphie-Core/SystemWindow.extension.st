@@ -1,7 +1,7 @@
 Extension { #name : 'SystemWindow' }
 
 { #category : '*Selphie-Core' }
-SystemWindow class >> screenshotMenuOn: aBuilder [
+SystemWindow class >> selphieMenuOn: aBuilder [
 
 	<windowMenu>
 	(aBuilder item: #Selphie)
