@@ -29,7 +29,7 @@ HaloMorph class >> initializeWithSelphie [
 HaloMorph class >> selphieHaloSpecifications [
 	"Answer an array that characterizes the locations, colors, icons, and selectors of the halo handles that may be used in the iconic halo scheme"
 
-	"self installHaloTheme: #iconicHaloSpecifications"
+	"self installHaloTheme: #selphieHaloSpecifications"
 
 	^ #(
 	"  	selector				horiz		vert			color info						icon key
