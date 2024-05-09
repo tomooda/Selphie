@@ -1,7 +1,7 @@
 # Selphie
 A simple window-wise and morph/wise screenshot maker for Pharo 12
 
-# Install
+## Install
 
 On Pharo 12/13,
 ```
@@ -13,7 +13,7 @@ Metacello new
 		load
 ```
 
-# How to use
+## How to use
 
 #### Window-wise screenshot
 
