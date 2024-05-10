@@ -1,5 +1,5 @@
 # Selphie
-A simple window-wise and morph/wise screenshot maker for Pharo 12
+A simple window-wise and morph-wise screenshot maker for Pharo 12
 
 ## Install
 
